@@ -1,0 +1,9 @@
+sse_resms64x.o: ../../../libgcc/config/i386/sse_resms64x.S \
+ sse_resms64x.vis ../../../libgcc/config/i386/resms64x.h \
+ /home/luyaohan1001/Projects/hack_linux_v5.15/buildroot-2022.02.8/output/build/host-gcc-initial-10.4.0/build/gcc/include/cet.h \
+ ../../../libgcc/config/i386/i386-asm.h auto-target.h
+sse_resms64x.vis:
+../../../libgcc/config/i386/resms64x.h:
+/home/luyaohan1001/Projects/hack_linux_v5.15/buildroot-2022.02.8/output/build/host-gcc-initial-10.4.0/build/gcc/include/cet.h:
+../../../libgcc/config/i386/i386-asm.h:
+auto-target.h:

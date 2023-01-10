@@ -1,0 +1,2 @@
+/home/luyaohan1001/Projects/hack_linux_v5.15/buildroot-2022.02.8/package/glibc//2.34-109-gd64b08d5ba7ffbc9155630f4843cf2e271b1629c/0001-sysdeps-unix-sysv-linux-microblaze-pselect32.c-add-m.patch
+/home/luyaohan1001/Projects/hack_linux_v5.15/buildroot-2022.02.8/package/glibc//2.34-109-gd64b08d5ba7ffbc9155630f4843cf2e271b1629c/0002-struct-stat-is-not-posix-conformant-on-microblaze-wi.patch

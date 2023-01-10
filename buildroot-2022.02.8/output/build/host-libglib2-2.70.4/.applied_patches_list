@@ -1,0 +1,4 @@
+/home/luyaohan1001/Projects/hack_linux_v5.15/buildroot-2022.02.8/package/libglib2/0001-fix-compile-time-atomic-detection.patch
+/home/luyaohan1001/Projects/hack_linux_v5.15/buildroot-2022.02.8/package/libglib2/0002-remove-cpp-requirement.patch
+/home/luyaohan1001/Projects/hack_linux_v5.15/buildroot-2022.02.8/package/libglib2/0003-Add-Wno-format-nonliteral-to-compiler-arguments.patch
+/home/luyaohan1001/Projects/hack_linux_v5.15/buildroot-2022.02.8/package/libglib2/0004-meson.build-add-girdir-to-gio-2.0.pc-and-glib-2.0.pc.patch

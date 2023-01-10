@@ -1,0 +1,21 @@
+unwind-c.o: ../../../libgcc/unwind-c.c ../.././gcc/tconfig.h \
+ ../.././gcc/auto-host.h ../../../libgcc/../include/ansidecl.h \
+ ../../../libgcc/../gcc/tsystem.h \
+ /home/luyaohan1001/Projects/hack_linux_v5.15/buildroot-2022.02.8/output/build/host-gcc-initial-10.4.0/build/gcc/include/stddef.h \
+ /home/luyaohan1001/Projects/hack_linux_v5.15/buildroot-2022.02.8/output/build/host-gcc-initial-10.4.0/build/gcc/include/float.h \
+ ../../../libgcc/../include/filenames.h \
+ ../../../libgcc/../include/hashtab.h \
+ ../../../libgcc/../include/ansidecl.h auto-target.h unwind.h \
+ ../../../libgcc/unwind-pe.h
+../.././gcc/tconfig.h:
+../.././gcc/auto-host.h:
+../../../libgcc/../include/ansidecl.h:
+../../../libgcc/../gcc/tsystem.h:
+/home/luyaohan1001/Projects/hack_linux_v5.15/buildroot-2022.02.8/output/build/host-gcc-initial-10.4.0/build/gcc/include/stddef.h:
+/home/luyaohan1001/Projects/hack_linux_v5.15/buildroot-2022.02.8/output/build/host-gcc-initial-10.4.0/build/gcc/include/float.h:
+../../../libgcc/../include/filenames.h:
+../../../libgcc/../include/hashtab.h:
+../../../libgcc/../include/ansidecl.h:
+auto-target.h:
+unwind.h:
+../../../libgcc/unwind-pe.h:

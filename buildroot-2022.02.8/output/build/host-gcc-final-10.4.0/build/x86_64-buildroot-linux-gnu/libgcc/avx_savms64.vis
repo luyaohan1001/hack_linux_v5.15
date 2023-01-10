@@ -1,0 +1,7 @@
+	.hidden __avx_savms64_18
+	.hidden __avx_savms64_17
+	.hidden __avx_savms64_16
+	.hidden __avx_savms64_15
+	.hidden __avx_savms64_14
+	.hidden __avx_savms64_13
+	.hidden __avx_savms64_12

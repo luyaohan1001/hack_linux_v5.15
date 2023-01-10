@@ -1,0 +1,3 @@
+crtprec64.o: ../../../libgcc/config/i386/crtprec.c \
+ /home/luyaohan1001/Projects/hack_linux_v5.15/buildroot-2022.02.8/output/host/x86_64-buildroot-linux-gnu/sysroot/usr/include/stdc-predef.h
+/home/luyaohan1001/Projects/hack_linux_v5.15/buildroot-2022.02.8/output/host/x86_64-buildroot-linux-gnu/sysroot/usr/include/stdc-predef.h:

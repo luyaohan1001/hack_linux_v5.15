@@ -1,0 +1,31 @@
+{
+    "description": "UEFI firmware for arm",
+    "interface-types": [
+        "uefi"
+    ],
+    "mapping": {
+        "device": "flash",
+        "executable": {
+            "filename": "/home/luyaohan1001/Projects/hack_linux_v5.15/buildroot-2022.02.8/output/host/share/qemu/edk2-arm-code.fd",
+            "format": "raw"
+        },
+        "nvram-template": {
+            "filename": "/home/luyaohan1001/Projects/hack_linux_v5.15/buildroot-2022.02.8/output/host/share/qemu/edk2-arm-vars.fd",
+            "format": "raw"
+        }
+    },
+    "targets": [
+        {
+            "architecture": "arm",
+            "machines": [
+                "virt-*"
+            ]
+        }
+    ],
+    "features": [
+        "verbose-static"
+    ],
+    "tags": [
+
+    ]
+}

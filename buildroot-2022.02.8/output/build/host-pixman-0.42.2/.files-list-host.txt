@@ -1,0 +1,7 @@
+host-pixman,./include/pixman-1/pixman.h
+host-pixman,./include/pixman-1/pixman-version.h
+host-pixman,./lib/libpixman-1.so.0.42.2
+host-pixman,./lib/libpixman-1.so.0
+host-pixman,./lib/libpixman-1.so
+host-pixman,./lib/libpixman-1.la
+host-pixman,./lib/pkgconfig/pixman-1.pc

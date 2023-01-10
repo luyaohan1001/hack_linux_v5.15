@@ -1,0 +1,9 @@
+/home/luyaohan1001/Projects/hack_linux_v5.15/buildroot-2022.02.8/output/build/host-ninja-1.10.2/CMakeFiles/libninja-re2c.dir
+/home/luyaohan1001/Projects/hack_linux_v5.15/buildroot-2022.02.8/output/build/host-ninja-1.10.2/CMakeFiles/libninja.dir
+/home/luyaohan1001/Projects/hack_linux_v5.15/buildroot-2022.02.8/output/build/host-ninja-1.10.2/CMakeFiles/ninja.dir
+/home/luyaohan1001/Projects/hack_linux_v5.15/buildroot-2022.02.8/output/build/host-ninja-1.10.2/CMakeFiles/edit_cache.dir
+/home/luyaohan1001/Projects/hack_linux_v5.15/buildroot-2022.02.8/output/build/host-ninja-1.10.2/CMakeFiles/rebuild_cache.dir
+/home/luyaohan1001/Projects/hack_linux_v5.15/buildroot-2022.02.8/output/build/host-ninja-1.10.2/CMakeFiles/list_install_components.dir
+/home/luyaohan1001/Projects/hack_linux_v5.15/buildroot-2022.02.8/output/build/host-ninja-1.10.2/CMakeFiles/install.dir
+/home/luyaohan1001/Projects/hack_linux_v5.15/buildroot-2022.02.8/output/build/host-ninja-1.10.2/CMakeFiles/install/local.dir
+/home/luyaohan1001/Projects/hack_linux_v5.15/buildroot-2022.02.8/output/build/host-ninja-1.10.2/CMakeFiles/install/strip.dir

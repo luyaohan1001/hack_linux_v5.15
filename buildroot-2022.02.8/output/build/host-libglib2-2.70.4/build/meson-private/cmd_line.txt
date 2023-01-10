@@ -1,0 +1,21 @@
+[options]
+strip = true
+dtrace = false
+fam = false
+glib_debug = disabled
+libelf = disabled
+selinux = disabled
+systemtap = false
+xattr = false
+tests = false
+oss_fuzz = disabled
+prefix = /home/luyaohan1001/Projects/hack_linux_v5.15/buildroot-2022.02.8/output/host
+libdir = lib
+localstatedir = /home/luyaohan1001/Projects/hack_linux_v5.15/buildroot-2022.02.8/output/host/var
+sysconfdir = /home/luyaohan1001/Projects/hack_linux_v5.15/buildroot-2022.02.8/output/host/etc
+buildtype = release
+default_library = shared
+wrap_mode = nodownload
+
+[properties]
+

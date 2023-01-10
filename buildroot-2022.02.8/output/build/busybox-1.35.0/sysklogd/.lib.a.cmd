@@ -1,0 +1,1 @@
+cmd_sysklogd/lib.a := rm -f sysklogd/lib.a; /home/luyaohan1001/Projects/hack_linux_v5.15/buildroot-2022.02.8/output/host/bin/x86_64-buildroot-linux-gnu-gcc-ar  rcs sysklogd/lib.a sysklogd/klogd.o sysklogd/syslogd_and_logger.o

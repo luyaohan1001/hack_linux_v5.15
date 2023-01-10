@@ -1,0 +1,5 @@
+/home/luyaohan1001/Projects/hack_linux_v5.15/buildroot-2022.02.8/package/busybox/0001-networking-libiproute-use-linux-if_packet.h-instead-.patch
+/home/luyaohan1001/Projects/hack_linux_v5.15/buildroot-2022.02.8/package/busybox/0002-Makefile.flags-strip-non-l-arguments-returned-by-pkg.patch
+/home/luyaohan1001/Projects/hack_linux_v5.15/buildroot-2022.02.8/package/busybox/0003-awk-fix-use-after-free-CVE-2022-30065.patch
+/home/luyaohan1001/Projects/hack_linux_v5.15/buildroot-2022.02.8/package/busybox/0004-libbb-sockaddr2str-ensure-only-printable-characters-.patch
+/home/luyaohan1001/Projects/hack_linux_v5.15/buildroot-2022.02.8/package/busybox/0005-nslookup-sanitize-all-printed-strings-with-printable.patch

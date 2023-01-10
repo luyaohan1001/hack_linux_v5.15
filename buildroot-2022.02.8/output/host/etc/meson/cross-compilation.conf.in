@@ -1,0 +1,37 @@
+# Note: Buildroot's and Meson's terminologies differ about the meaning
+# of 'build', 'host' and 'target':
+# - Buildroot's 'host' is Meson's 'build'
+# - Buildroot's 'target' is Meson's 'host'
+
+[binaries]
+c = '/home/luyaohan1001/Projects/hack_linux_v5.15/buildroot-2022.02.8/output/host/bin/x86_64-buildroot-linux-gnu-gcc'
+cpp = '/home/luyaohan1001/Projects/hack_linux_v5.15/buildroot-2022.02.8/output/host/bin/x86_64-buildroot-linux-gnu-g++'
+ar = '/home/luyaohan1001/Projects/hack_linux_v5.15/buildroot-2022.02.8/output/host/bin/x86_64-buildroot-linux-gnu-gcc-ar'
+strip = '/home/luyaohan1001/Projects/hack_linux_v5.15/buildroot-2022.02.8/output/host/bin/x86_64-buildroot-linux-gnu-strip'
+cmake = '/usr/bin/cmake'
+pkgconfig = '/home/luyaohan1001/Projects/hack_linux_v5.15/buildroot-2022.02.8/output/host/bin/pkgconf'
+g-ir-compiler = '/home/luyaohan1001/Projects/hack_linux_v5.15/buildroot-2022.02.8/output/host/x86_64-buildroot-linux-gnu/sysroot/usr/bin/g-ir-compiler'
+g-ir-scanner = '/home/luyaohan1001/Projects/hack_linux_v5.15/buildroot-2022.02.8/output/host/x86_64-buildroot-linux-gnu/sysroot/usr/bin/g-ir-scanner'
+
+[built-in options]
+c_args = ['-D_LARGEFILE_SOURCE', '-D_LARGEFILE64_SOURCE', '-D_FILE_OFFSET_BITS=64', '-Os', '-g0', '-D_FORTIFY_SOURCE=1'@PKG_TARGET_CFLAGS@]
+c_link_args = [@PKG_TARGET_LDFLAGS@]
+cpp_args = ['-D_LARGEFILE_SOURCE', '-D_LARGEFILE64_SOURCE', '-D_FILE_OFFSET_BITS=64', '-Os', '-g0', '-D_FORTIFY_SOURCE=1'@PKG_TARGET_CXXFLAGS@]
+cpp_link_args = [@PKG_TARGET_LDFLAGS@]
+wrap_mode = 'nodownload'
+cmake_prefix_path = '/home/luyaohan1001/Projects/hack_linux_v5.15/buildroot-2022.02.8/output/host/x86_64-buildroot-linux-gnu/sysroot/usr/lib/cmake'
+
+[properties]
+needs_exe_wrapper = true
+sys_root = '/home/luyaohan1001/Projects/hack_linux_v5.15/buildroot-2022.02.8/output/host/x86_64-buildroot-linux-gnu/sysroot'
+pkg_config_libdir = '/home/luyaohan1001/Projects/hack_linux_v5.15/buildroot-2022.02.8/output/host/x86_64-buildroot-linux-gnu/sysroot/usr/lib/pkgconfig:/home/luyaohan1001/Projects/hack_linux_v5.15/buildroot-2022.02.8/output/host/x86_64-buildroot-linux-gnu/sysroot/usr/share/pkgconfig'
+pkg_config_static = 'false'
+# enable meson build to pass a toolchain file to cmake
+cmake_toolchain_file = '/home/luyaohan1001/Projects/hack_linux_v5.15/buildroot-2022.02.8/output/host/share/buildroot/toolchainfile.cmake'
+cmake_defaults = false
+
+[host_machine]
+system = 'linux'
+cpu_family = 'x86_64'
+cpu = ''
+endian = 'little'

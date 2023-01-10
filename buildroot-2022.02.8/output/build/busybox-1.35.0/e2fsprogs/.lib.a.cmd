@@ -1,0 +1,1 @@
+cmd_e2fsprogs/lib.a := rm -f e2fsprogs/lib.a; /home/luyaohan1001/Projects/hack_linux_v5.15/buildroot-2022.02.8/output/host/bin/x86_64-buildroot-linux-gnu-gcc-ar  rcs e2fsprogs/lib.a e2fsprogs/chattr.o e2fsprogs/e2fs_lib.o e2fsprogs/fsck.o e2fsprogs/lsattr.o

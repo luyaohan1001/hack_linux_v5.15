@@ -1,0 +1,1 @@
+cmd_debianutils/lib.a := rm -f debianutils/lib.a; /home/luyaohan1001/Projects/hack_linux_v5.15/buildroot-2022.02.8/output/host/bin/x86_64-buildroot-linux-gnu-gcc-ar  rcs debianutils/lib.a debianutils/pipe_progress.o debianutils/run_parts.o debianutils/start_stop_daemon.o debianutils/which.o

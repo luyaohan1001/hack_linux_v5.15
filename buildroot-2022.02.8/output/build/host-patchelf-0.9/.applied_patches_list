@@ -1,0 +1,10 @@
+/home/luyaohan1001/Projects/hack_linux_v5.15/buildroot-2022.02.8/package/patchelf/0001-Remove-apparently-incorrect-usage-of-static.patch
+/home/luyaohan1001/Projects/hack_linux_v5.15/buildroot-2022.02.8/package/patchelf/0002-Extract-a-function-for-splitting-a-colon-separated-s.patch
+/home/luyaohan1001/Projects/hack_linux_v5.15/buildroot-2022.02.8/package/patchelf/0003-Add-option-to-make-the-rpath-relative-under-a-specif.patch
+/home/luyaohan1001/Projects/hack_linux_v5.15/buildroot-2022.02.8/package/patchelf/0004-patchelf-Check-ELF-endianness-before-writing-new-run.patch
+/home/luyaohan1001/Projects/hack_linux_v5.15/buildroot-2022.02.8/package/patchelf/0005-Avoid-inflating-file-sizes-needlessly-and-allow-bina.patch
+/home/luyaohan1001/Projects/hack_linux_v5.15/buildroot-2022.02.8/package/patchelf/0006-Fix-shared-library-corruption-when-rerunning-patchel.patch
+/home/luyaohan1001/Projects/hack_linux_v5.15/buildroot-2022.02.8/package/patchelf/0007-fix-adjusting-startPage.patch
+/home/luyaohan1001/Projects/hack_linux_v5.15/buildroot-2022.02.8/package/patchelf/0008-Use-sh_offset-instead-of-sh_addr-when-checking-alrea.patch
+/home/luyaohan1001/Projects/hack_linux_v5.15/buildroot-2022.02.8/package/patchelf/0009-Fix-issue-66-by-ignoring-the-first-section-header-wh.patch
+/home/luyaohan1001/Projects/hack_linux_v5.15/buildroot-2022.02.8/package/patchelf/0010-Fix-endianness-issues-for-powerpc-PIE.patch

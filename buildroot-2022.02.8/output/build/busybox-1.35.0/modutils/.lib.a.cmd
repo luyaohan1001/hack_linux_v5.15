@@ -1,0 +1,1 @@
+cmd_modutils/lib.a := rm -f modutils/lib.a; /home/luyaohan1001/Projects/hack_linux_v5.15/buildroot-2022.02.8/output/host/bin/x86_64-buildroot-linux-gnu-gcc-ar  rcs modutils/lib.a modutils/insmod.o modutils/lsmod.o modutils/modprobe.o modutils/modutils.o modutils/rmmod.o

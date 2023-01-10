@@ -1,0 +1,9 @@
+sse_savms64.o: ../../../libgcc/config/i386/sse_savms64.S sse_savms64.vis \
+ ../../../libgcc/config/i386/savms64.h \
+ /home/luyaohan1001/Projects/hack_linux_v5.15/buildroot-2022.02.8/output/build/host-gcc-initial-10.4.0/build/gcc/include/cet.h \
+ ../../../libgcc/config/i386/i386-asm.h auto-target.h
+sse_savms64.vis:
+../../../libgcc/config/i386/savms64.h:
+/home/luyaohan1001/Projects/hack_linux_v5.15/buildroot-2022.02.8/output/build/host-gcc-initial-10.4.0/build/gcc/include/cet.h:
+../../../libgcc/config/i386/i386-asm.h:
+auto-target.h:

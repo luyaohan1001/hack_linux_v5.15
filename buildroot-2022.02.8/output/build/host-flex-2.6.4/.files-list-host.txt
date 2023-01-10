@@ -1,0 +1,12 @@
+host-flex,./include/FlexLexer.h
+host-flex,./lib/libfl.so.2.0.0
+host-flex,./lib/libfl.so.2
+host-flex,./lib/libfl.so
+host-flex,./lib/libfl.la
+host-flex,./bin/flex
+host-flex,./bin/flex++
+host-flex,./share/doc/flex/AUTHORS
+host-flex,./share/doc/flex/COPYING
+host-flex,./share/doc/flex/NEWS
+host-flex,./share/doc/flex/ONEWS
+host-flex,./share/doc/flex/README.md

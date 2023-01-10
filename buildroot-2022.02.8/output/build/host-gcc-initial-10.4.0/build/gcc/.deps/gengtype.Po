@@ -1,0 +1,28 @@
+gengtype.o: ../../gcc/gengtype.c config.h auto-host.h \
+ ../../gcc/../include/ansidecl.h ../../gcc/system.h \
+ ../../gcc/../include/safe-ctype.h ../../gcc/../include/filenames.h \
+ ../../gcc/../include/hashtab.h ../../gcc/../include/ansidecl.h \
+ ../../gcc/../include/libiberty.h ../../gcc/hwint.h ../../gcc/errors.h \
+ ../../gcc/../include/getopt.h ../../gcc/version.h \
+ ../../gcc/../include/xregex.h ../../gcc/../include/xregex2.h \
+ ../../gcc/../include/obstack.h ../../gcc/gengtype.h ../../gcc/rtl.def \
+ ../../gcc/insn-notes.def
+config.h:
+auto-host.h:
+../../gcc/../include/ansidecl.h:
+../../gcc/system.h:
+../../gcc/../include/safe-ctype.h:
+../../gcc/../include/filenames.h:
+../../gcc/../include/hashtab.h:
+../../gcc/../include/ansidecl.h:
+../../gcc/../include/libiberty.h:
+../../gcc/hwint.h:
+../../gcc/errors.h:
+../../gcc/../include/getopt.h:
+../../gcc/version.h:
+../../gcc/../include/xregex.h:
+../../gcc/../include/xregex2.h:
+../../gcc/../include/obstack.h:
+../../gcc/gengtype.h:
+../../gcc/rtl.def:
+../../gcc/insn-notes.def:

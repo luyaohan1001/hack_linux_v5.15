@@ -1,0 +1,5 @@
+graphite-isl-ast-to-gimple.o: ../../gcc/graphite-isl-ast-to-gimple.c \
+ config.h auto-host.h ../../gcc/../include/ansidecl.h
+config.h:
+auto-host.h:
+../../gcc/../include/ansidecl.h:

@@ -1,0 +1,4 @@
+ifupdown-scripts,./etc/network/if-pre-up.d/wait_iface
+ifupdown-scripts,./etc/network/nfs_check
+ifupdown-scripts,./etc/init.d/S40network
+ifupdown-scripts,./etc/network/interfaces

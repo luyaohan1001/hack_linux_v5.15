@@ -1,0 +1,11 @@
+host-libffi,./include/ffi.h
+host-libffi,./include/ffitarget.h
+host-libffi,./share/man/man3/ffi.3
+host-libffi,./share/man/man3/ffi_call.3
+host-libffi,./share/man/man3/ffi_prep_cif.3
+host-libffi,./share/man/man3/ffi_prep_cif_var.3
+host-libffi,./lib/pkgconfig/libffi.pc
+host-libffi,./lib/libffi.so.8.1.0
+host-libffi,./lib/libffi.so.8
+host-libffi,./lib/libffi.so
+host-libffi,./lib/libffi.la

@@ -1,0 +1,12 @@
+prefix=/home/luyaohan1001/Projects/hack_linux_v5.15/buildroot-2022.02.8/output/build/host-libglib2-2.70.4/build
+srcdir=/home/luyaohan1001/Projects/hack_linux_v5.15/buildroot-2022.02.8/output/build/host-libglib2-2.70.4
+libdir=${prefix}/lib
+includedir=${prefix}/include
+
+Name: GLib
+Description: C Utility Library
+Version: 2.70.4
+Requires.private: libpcre >=  8.31
+Libs: -L${prefix}/glib -lglib-2.0
+Libs.private: -pthread -lm
+Cflags: -I${prefix}/glib -I${srcdir}/glib -I${prefix} -I${srcdir} -I${libdir}/glib-2.0/include

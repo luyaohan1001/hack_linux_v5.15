@@ -1,0 +1,5 @@
+@set version-GCC 10.4.0
+@clear DEVELOPMENT
+@set srcdir /home/luyaohan1001/Projects/hack_linux_v5.15/buildroot-2022.02.8/output/build/host-gcc-initial-10.4.0/build/gcc/../../gcc
+@set VERSION_PACKAGE (Buildroot -gb01e18a7d-dirty) 
+@set BUGURL @uref{http://bugs.buildroot.net/}

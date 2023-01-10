@@ -1,0 +1,9 @@
+names.lo: ../../libcc1/names.cc /usr/include/stdc-predef.h \
+ cc1plugin-config.h ../../libcc1/names.hh \
+ ../../libcc1/../include/gcc-c-fe.def \
+ ../../libcc1/../include/gcc-cp-fe.def
+/usr/include/stdc-predef.h:
+cc1plugin-config.h:
+../../libcc1/names.hh:
+../../libcc1/../include/gcc-c-fe.def:
+../../libcc1/../include/gcc-cp-fe.def:

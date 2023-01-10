@@ -1,0 +1,8 @@
+avx_resms64_s.o: ../../../libgcc/config/i386/avx_resms64.S \
+ ../../../libgcc/config/i386/resms64.h \
+ /home/luyaohan1001/Projects/hack_linux_v5.15/buildroot-2022.02.8/output/build/host-gcc-initial-10.4.0/build/gcc/include/cet.h \
+ ../../../libgcc/config/i386/i386-asm.h auto-target.h
+../../../libgcc/config/i386/resms64.h:
+/home/luyaohan1001/Projects/hack_linux_v5.15/buildroot-2022.02.8/output/build/host-gcc-initial-10.4.0/build/gcc/include/cet.h:
+../../../libgcc/config/i386/i386-asm.h:
+auto-target.h:

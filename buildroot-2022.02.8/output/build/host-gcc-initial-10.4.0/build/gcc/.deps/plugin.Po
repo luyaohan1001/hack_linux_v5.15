@@ -1,0 +1,85 @@
+plugin.o: ../../gcc/plugin.c config.h auto-host.h \
+ ../../gcc/../include/ansidecl.h ../../gcc/system.h \
+ ../../gcc/../include/safe-ctype.h ../../gcc/../include/filenames.h \
+ ../../gcc/../include/hashtab.h ../../gcc/../include/ansidecl.h \
+ /home/luyaohan1001/Projects/hack_linux_v5.15/buildroot-2022.02.8/output/host/include/gmp.h \
+ ../../gcc/../include/libiberty.h ../../gcc/hwint.h ../../gcc/coretypes.h \
+ insn-modes.h ../../gcc/signop.h ../../gcc/wide-int.h \
+ ../../gcc/wide-int-print.h ../../gcc/poly-int.h \
+ ../../gcc/poly-int-types.h insn-modes-inline.h ../../gcc/machmode.h \
+ ../../gcc/mode-classes.def ../../gcc/double-int.h ../../gcc/align.h \
+ ../../gcc/real.h ../../gcc/fixed-value.h ../../gcc/hash-table.h \
+ ../../gcc/statistics.h ../../gcc/ggc.h gtype-desc.h ../../gcc/vec.h \
+ ../../gcc/../include/hashtab.h ../../gcc/inchash.h \
+ ../../gcc/mem-stats-traits.h ../../gcc/hash-traits.h \
+ ../../gcc/hash-map-traits.h ../../gcc/mem-stats.h ../../gcc/hash-map.h \
+ ../../gcc/hash-set.h ../../gcc/input.h \
+ ../../gcc/../libcpp/include/line-map.h ../../gcc/is-a.h \
+ ../../gcc/memory-block.h ../../gcc/dumpfile.h ../../gcc/profile-count.h \
+ options.h ../../gcc/flag-types.h ../../gcc/config/i386/i386-opts.h \
+ ../../gcc/config/i386/stringop.def ../../gcc/tree-pass.h \
+ ../../gcc/timevar.h ../../gcc/timevar.def ../../gcc/diagnostic-core.h \
+ bversion.h ../../gcc/diagnostic.def ../../gcc/flags.h ../../gcc/intl.h \
+ ../../gcc/plugin.h ../../gcc/highlev-plugin-common.h \
+ ../../gcc/plugin.def plugin-version.h configargs.h
+config.h:
+auto-host.h:
+../../gcc/../include/ansidecl.h:
+../../gcc/system.h:
+../../gcc/../include/safe-ctype.h:
+../../gcc/../include/filenames.h:
+../../gcc/../include/hashtab.h:
+../../gcc/../include/ansidecl.h:
+/home/luyaohan1001/Projects/hack_linux_v5.15/buildroot-2022.02.8/output/host/include/gmp.h:
+../../gcc/../include/libiberty.h:
+../../gcc/hwint.h:
+../../gcc/coretypes.h:
+insn-modes.h:
+../../gcc/signop.h:
+../../gcc/wide-int.h:
+../../gcc/wide-int-print.h:
+../../gcc/poly-int.h:
+../../gcc/poly-int-types.h:
+insn-modes-inline.h:
+../../gcc/machmode.h:
+../../gcc/mode-classes.def:
+../../gcc/double-int.h:
+../../gcc/align.h:
+../../gcc/real.h:
+../../gcc/fixed-value.h:
+../../gcc/hash-table.h:
+../../gcc/statistics.h:
+../../gcc/ggc.h:
+gtype-desc.h:
+../../gcc/vec.h:
+../../gcc/../include/hashtab.h:
+../../gcc/inchash.h:
+../../gcc/mem-stats-traits.h:
+../../gcc/hash-traits.h:
+../../gcc/hash-map-traits.h:
+../../gcc/mem-stats.h:
+../../gcc/hash-map.h:
+../../gcc/hash-set.h:
+../../gcc/input.h:
+../../gcc/../libcpp/include/line-map.h:
+../../gcc/is-a.h:
+../../gcc/memory-block.h:
+../../gcc/dumpfile.h:
+../../gcc/profile-count.h:
+options.h:
+../../gcc/flag-types.h:
+../../gcc/config/i386/i386-opts.h:
+../../gcc/config/i386/stringop.def:
+../../gcc/tree-pass.h:
+../../gcc/timevar.h:
+../../gcc/timevar.def:
+../../gcc/diagnostic-core.h:
+bversion.h:
+../../gcc/diagnostic.def:
+../../gcc/flags.h:
+../../gcc/intl.h:
+../../gcc/plugin.h:
+../../gcc/highlev-plugin-common.h:
+../../gcc/plugin.def:
+plugin-version.h:
+configargs.h:

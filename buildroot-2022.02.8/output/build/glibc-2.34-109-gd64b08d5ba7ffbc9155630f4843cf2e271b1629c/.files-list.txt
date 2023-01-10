@@ -1,0 +1,13 @@
+glibc,./lib/ld-linux-x86-64.so.2
+glibc,./lib/libanl.so.1
+glibc,./lib/libc.so.6
+glibc,./lib/libcrypt.so.1
+glibc,./lib/libdl.so.2
+glibc,./lib/libm.so.6
+glibc,./lib/libpthread.so.0
+glibc,./lib/libresolv.so.2
+glibc,./lib/librt.so.1
+glibc,./lib/libutil.so.1
+glibc,./lib/libnss_files.so.2
+glibc,./lib/libnss_dns.so.2
+glibc,./lib/libmvec.so.1

@@ -1,0 +1,11 @@
+prefix=/home/luyaohan1001/Projects/hack_linux_v5.15/buildroot-2022.02.8/output/build/host-libglib2-2.70.4/build
+srcdir=/home/luyaohan1001/Projects/hack_linux_v5.15/buildroot-2022.02.8/output/build/host-libglib2-2.70.4
+libdir=${prefix}/lib
+includedir=${prefix}/include
+
+Name: GModule
+Description: Dynamic module loader for GLib
+Version: 2.70.4
+Requires: glib-2.0
+Libs: -L${prefix}/gmodule -lgmodule-2.0 -pthread
+Cflags: -I${prefix}/gmodule -I${srcdir}/gmodule -I${prefix} -I${srcdir} -I${prefix}/glib -I${srcdir}/glib -pthread

@@ -1,0 +1,10 @@
+prefix=/home/luyaohan1001/Projects/hack_linux_v5.15/buildroot-2022.02.8/output/host
+libdir=${prefix}/lib
+includedir=${prefix}/include
+
+Name: GThread
+Description: Thread support for GLib
+Version: 2.70.4
+Requires: glib-2.0
+Libs: -L${libdir} -lgthread-2.0 -pthread
+Cflags: -I${includedir} -pthread

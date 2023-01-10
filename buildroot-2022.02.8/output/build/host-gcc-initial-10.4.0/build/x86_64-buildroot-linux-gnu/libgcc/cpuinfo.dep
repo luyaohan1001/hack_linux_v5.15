@@ -1,0 +1,18 @@
+cpuinfo.o: ../../../libgcc/config/i386/cpuinfo.c \
+ /home/luyaohan1001/Projects/hack_linux_v5.15/buildroot-2022.02.8/output/build/host-gcc-initial-10.4.0/build/gcc/include/cpuid.h \
+ ../../../libgcc/../gcc/tsystem.h \
+ /home/luyaohan1001/Projects/hack_linux_v5.15/buildroot-2022.02.8/output/build/host-gcc-initial-10.4.0/build/gcc/include/stddef.h \
+ /home/luyaohan1001/Projects/hack_linux_v5.15/buildroot-2022.02.8/output/build/host-gcc-initial-10.4.0/build/gcc/include/float.h \
+ ../../../libgcc/../include/filenames.h \
+ ../../../libgcc/../include/hashtab.h \
+ ../../../libgcc/../include/ansidecl.h auto-target.h \
+ ../../../libgcc/config/i386/cpuinfo.h
+/home/luyaohan1001/Projects/hack_linux_v5.15/buildroot-2022.02.8/output/build/host-gcc-initial-10.4.0/build/gcc/include/cpuid.h:
+../../../libgcc/../gcc/tsystem.h:
+/home/luyaohan1001/Projects/hack_linux_v5.15/buildroot-2022.02.8/output/build/host-gcc-initial-10.4.0/build/gcc/include/stddef.h:
+/home/luyaohan1001/Projects/hack_linux_v5.15/buildroot-2022.02.8/output/build/host-gcc-initial-10.4.0/build/gcc/include/float.h:
+../../../libgcc/../include/filenames.h:
+../../../libgcc/../include/hashtab.h:
+../../../libgcc/../include/ansidecl.h:
+auto-target.h:
+../../../libgcc/config/i386/cpuinfo.h:

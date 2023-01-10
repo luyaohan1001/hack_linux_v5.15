@@ -1,0 +1,11 @@
+/home/luyaohan1001/Projects/hack_linux_v5.15/buildroot-2022.02.8/output/build/glibc-2.34-109-gd64b08d5ba7ffbc9155630f4843cf2e271b1629c/build/dummy.o: \
+ /home/luyaohan1001/Projects/hack_linux_v5.15/buildroot-2022.02.8/output/build/glibc-2.34-109-gd64b08d5ba7ffbc9155630f4843cf2e271b1629c/build/dummy.c \
+ /home/luyaohan1001/Projects/hack_linux_v5.15/buildroot-2022.02.8/output/build/glibc-2.34-109-gd64b08d5ba7ffbc9155630f4843cf2e271b1629c/build/libc-modules.h \
+ ../include/libc-symbols.h \
+ /home/luyaohan1001/Projects/hack_linux_v5.15/buildroot-2022.02.8/output/build/glibc-2.34-109-gd64b08d5ba7ffbc9155630f4843cf2e271b1629c/build/config.h \
+ ../sysdeps/generic/libc-symver.h ../sysdeps/generic/symbol-hacks.h
+/home/luyaohan1001/Projects/hack_linux_v5.15/buildroot-2022.02.8/output/build/glibc-2.34-109-gd64b08d5ba7ffbc9155630f4843cf2e271b1629c/build/libc-modules.h:
+../include/libc-symbols.h:
+/home/luyaohan1001/Projects/hack_linux_v5.15/buildroot-2022.02.8/output/build/glibc-2.34-109-gd64b08d5ba7ffbc9155630f4843cf2e271b1629c/build/config.h:
+../sysdeps/generic/libc-symver.h:
+../sysdeps/generic/symbol-hacks.h:

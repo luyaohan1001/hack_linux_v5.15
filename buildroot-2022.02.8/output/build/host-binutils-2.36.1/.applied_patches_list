@@ -1,0 +1,10 @@
+/home/luyaohan1001/Projects/hack_linux_v5.15/buildroot-2022.02.8/package/binutils//2.36.1/0001-sh-conf.patch
+/home/luyaohan1001/Projects/hack_linux_v5.15/buildroot-2022.02.8/package/binutils//2.36.1/0002-poison-system-directories.patch
+/home/luyaohan1001/Projects/hack_linux_v5.15/buildroot-2022.02.8/package/binutils//2.36.1/0003-or1k-Fix-issue-with-plt-link-failure-for-local-calls.patch
+/home/luyaohan1001/Projects/hack_linux_v5.15/buildroot-2022.02.8/package/binutils//2.36.1/0004-or1k-Implement-relocation-R_OR1K_GOT_AHI16-for-gotha.patch
+/home/luyaohan1001/Projects/hack_linux_v5.15/buildroot-2022.02.8/package/binutils//2.36.1/0005-or1k-Avoid-R_OR1K_GOT16-overflow-failures-in-presenc.patch
+/home/luyaohan1001/Projects/hack_linux_v5.15/buildroot-2022.02.8/package/binutils//2.36.1/0006-or1k-Support-large-plt_relocs-when-generating-plt-en.patch
+/home/luyaohan1001/Projects/hack_linux_v5.15/buildroot-2022.02.8/package/binutils//2.36.1/0007-bfd-elf32-or1k-fix-building-with-gcc-version-5.patch
+/home/luyaohan1001/Projects/hack_linux_v5.15/buildroot-2022.02.8/package/binutils//2.36.1/0008-or1k-fix-pc-relative-relocation-against-dynamic-on-P.patch
+/home/luyaohan1001/Projects/hack_linux_v5.15/buildroot-2022.02.8/package/binutils//2.36.1/0009-or1k-Avoid-R_OR1K_GOT16-signed-overflow-by-using-spe.patch
+/home/luyaohan1001/Projects/hack_linux_v5.15/buildroot-2022.02.8/package/binutils//2.36.1/0010-i386-Allow-GOT32-relocations-against-ABS-symbols.patch

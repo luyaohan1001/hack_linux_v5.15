@@ -1,0 +1,3 @@
+set CC_FOR_TARGET "/usr/bin/gcc"
+set CXX_FOR_TARGET "/usr/bin/g++"
+set compiler_vendor "gnu"

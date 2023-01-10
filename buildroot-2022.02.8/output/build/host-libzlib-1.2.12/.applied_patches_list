@@ -1,0 +1,3 @@
+/home/luyaohan1001/Projects/hack_linux_v5.15/buildroot-2022.02.8/package/libzlib/0001-Fix-configure-issue-that-discarded-provided-CC-definition.patch
+/home/luyaohan1001/Projects/hack_linux_v5.15/buildroot-2022.02.8/package/libzlib/0002-fix-CVE-2022-37434.patch
+/home/luyaohan1001/Projects/hack_linux_v5.15/buildroot-2022.02.8/package/libzlib/0003-fix-CVE-2022-37434-regression.patch

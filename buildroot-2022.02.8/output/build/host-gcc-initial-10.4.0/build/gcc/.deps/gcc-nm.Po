@@ -1,0 +1,18 @@
+gcc-nm.o: gcc-nm.c config.h auto-host.h ../../gcc/../include/ansidecl.h \
+ ../../gcc/system.h ../../gcc/../include/safe-ctype.h \
+ ../../gcc/../include/filenames.h ../../gcc/../include/hashtab.h \
+ ../../gcc/../include/ansidecl.h \
+ /home/luyaohan1001/Projects/hack_linux_v5.15/buildroot-2022.02.8/output/host/include/gmp.h \
+ ../../gcc/../include/libiberty.h ../../gcc/hwint.h ../../gcc/file-find.h
+config.h:
+auto-host.h:
+../../gcc/../include/ansidecl.h:
+../../gcc/system.h:
+../../gcc/../include/safe-ctype.h:
+../../gcc/../include/filenames.h:
+../../gcc/../include/hashtab.h:
+../../gcc/../include/ansidecl.h:
+/home/luyaohan1001/Projects/hack_linux_v5.15/buildroot-2022.02.8/output/host/include/gmp.h:
+../../gcc/../include/libiberty.h:
+../../gcc/hwint.h:
+../../gcc/file-find.h:

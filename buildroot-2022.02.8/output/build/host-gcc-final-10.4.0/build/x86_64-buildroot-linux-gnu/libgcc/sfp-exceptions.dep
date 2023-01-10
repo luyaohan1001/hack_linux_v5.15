@@ -1,0 +1,7 @@
+sfp-exceptions.o: ../../../libgcc/config/i386/sfp-exceptions.c \
+ /home/luyaohan1001/Projects/hack_linux_v5.15/buildroot-2022.02.8/output/host/x86_64-buildroot-linux-gnu/sysroot/usr/include/stdc-predef.h \
+ ../../../libgcc/config/i386/sfp-machine.h \
+ ../../../libgcc/config/i386/64/sfp-machine.h
+/home/luyaohan1001/Projects/hack_linux_v5.15/buildroot-2022.02.8/output/host/x86_64-buildroot-linux-gnu/sysroot/usr/include/stdc-predef.h:
+../../../libgcc/config/i386/sfp-machine.h:
+../../../libgcc/config/i386/64/sfp-machine.h:

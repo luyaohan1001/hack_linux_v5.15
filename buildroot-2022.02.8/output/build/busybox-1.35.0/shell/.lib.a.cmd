@@ -1,0 +1,1 @@
+cmd_shell/lib.a := rm -f shell/lib.a; /home/luyaohan1001/Projects/hack_linux_v5.15/buildroot-2022.02.8/output/host/bin/x86_64-buildroot-linux-gnu-gcc-ar  rcs shell/lib.a shell/ash.o shell/ash_ptr_hack.o shell/math.o shell/random.o shell/shell_common.o

@@ -1,0 +1,1 @@
+cmd_archival/lib.a := rm -f archival/lib.a; /home/luyaohan1001/Projects/hack_linux_v5.15/buildroot-2022.02.8/output/host/bin/x86_64-buildroot-linux-gnu-gcc-ar  rcs archival/lib.a archival/ar.o archival/bbunzip.o archival/chksum_and_xwrite_tar_header.o archival/cpio.o archival/gzip.o archival/lzop.o archival/tar.o archival/unzip.o

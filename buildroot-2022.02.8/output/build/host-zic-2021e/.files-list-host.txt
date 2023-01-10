@@ -1,0 +1,2 @@
+host-zic,./sbin/zic
+host-zic,./include/tzfile.h

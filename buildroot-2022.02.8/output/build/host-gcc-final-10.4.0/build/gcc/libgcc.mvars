@@ -1,0 +1,4 @@
+GCC_CFLAGS = -D_LARGEFILE_SOURCE -D_LARGEFILE64_SOURCE -D_FILE_OFFSET_BITS=64  -Os -g0 -D_FORTIFY_SOURCE=1 -DIN_GCC  -DCROSS_DIRECTORY_STRUCTURE  -W -Wall -Wno-narrowing -Wwrite-strings -Wcast-qual -Wno-error=format-diag -Wstrict-prototypes -Wmissing-prototypes -Wno-error=format-diag -Wold-style-definition  -isystem ./include 
+INHIBIT_LIBC_CFLAGS = 
+TARGET_SYSTEM_ROOT = /home/luyaohan1001/Projects/hack_linux_v5.15/buildroot-2022.02.8/output/host/x86_64-buildroot-linux-gnu/sysroot
+NO_PIE_CFLAGS = 

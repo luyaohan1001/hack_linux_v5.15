@@ -1,0 +1,14 @@
+host-dtc,./bin/convert-dtsv0
+host-dtc,./bin/dtc
+host-dtc,./bin/fdtdump
+host-dtc,./bin/fdtget
+host-dtc,./bin/fdtput
+host-dtc,./bin/fdtoverlay
+host-dtc,./lib/libfdt-1.6.1.so
+host-dtc,./bin/dtdiff
+host-dtc,./lib/libfdt.so.1
+host-dtc,./lib/libfdt.so
+host-dtc,./lib/libfdt.a
+host-dtc,./include/libfdt/fdt.h
+host-dtc,./include/libfdt/libfdt.h
+host-dtc,./include/libfdt/libfdt_env.h

@@ -1,0 +1,10 @@
+#!/bin/sh
+set -e
+chown -h -R 0:0 /home/luyaohan1001/Projects/hack_linux_v5.15/buildroot-2022.02.8/output/build/buildroot-fs/ext2/target
+/home/luyaohan1001/Projects/hack_linux_v5.15/buildroot-2022.02.8/output/host/bin/makedevs -d /home/luyaohan1001/Projects/hack_linux_v5.15/buildroot-2022.02.8/output/build/buildroot-fs/full_devices_table.txt /home/luyaohan1001/Projects/hack_linux_v5.15/buildroot-2022.02.8/output/build/buildroot-fs/ext2/target
+find /home/luyaohan1001/Projects/hack_linux_v5.15/buildroot-2022.02.8/output/build/buildroot-fs/ext2/target/run/ -mindepth 1 -prune -print0 | xargs -0r rm -rf --
+find /home/luyaohan1001/Projects/hack_linux_v5.15/buildroot-2022.02.8/output/build/buildroot-fs/ext2/target/tmp/ -mindepth 1 -prune -print0 | xargs -0r rm -rf --
+   
+   
+   	rm -f /home/luyaohan1001/Projects/hack_linux_v5.15/buildroot-2022.02.8/output/images/rootfs.ext2
+	/home/luyaohan1001/Projects/hack_linux_v5.15/buildroot-2022.02.8/output/host/sbin/mkfs.ext2 -d /home/luyaohan1001/Projects/hack_linux_v5.15/buildroot-2022.02.8/output/build/buildroot-fs/ext2/target -r 1 -N 0 -m 5 -L "rootfs" -O ^64bit /home/luyaohan1001/Projects/hack_linux_v5.15/buildroot-2022.02.8/output/images/rootfs.ext2 "60M" || { ret=$?; echo "*** Maybe you need to increase the filesystem size (BR2_TARGET_ROOTFS_EXT2_SIZE)" 1>&2; exit $ret; }

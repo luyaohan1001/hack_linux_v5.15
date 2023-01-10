@@ -1,0 +1,145 @@
+2021-10-27         Arnold D. Robbins     <arnold@skeeve.com>
+
+	* 5.1.1: Release tar ball made.
+
+2021-10-13         Arnold D. Robbins     <arnold@skeeve.com>
+
+	* ordchr.c: Update copyright year.
+
+2021-09-27         Andrew J. Schorr      <aschorr@telemetry-investments.com>
+
+	* ordchr.c (do_ord): Add white space around cast.
+
+2021-09-27         Andrew J. Schorr      <aschorr@telemetry-investments.com>
+
+	* ordchr.c (do_ord): Need to cast to unsigned char to avoid returning
+	negative values.
+
+2021-09-22         Arnold D. Robbins     <arnold@skeeve.com>
+
+	* configure.ac: Update version to 5.1.1 in preparation for release.
+
+2021-09-10         Arnold D. Robbins     <arnold@skeeve.com>
+
+	* configure.ac: Updated for Autoconf 2.71. Removes various warnings.
+	* configh.in, configure: Regenerated.
+
+	Unrelated:
+
+	* aclocal.m4: Regenerated: Automake 1.16.4.
+
+2021-09-09         Arnold D. Robbins     <arnold@skeeve.com>
+
+	Move to Autoconf 2.71 (finally!)
+
+	* aclocal.m4, configh.in, configure: Regenerated.
+
+2021-05-05         Arnold D. Robbins     <arnold@skeeve.com>
+
+	Get `make distcheck' working again:
+
+	* Makefile.am (EXTRA_DIST): Remove files that are now in build-aux.
+	* aclocal.m4: Regenerated.
+
+2021-03-29         Arnold D. Robbins     <arnold@skeeve.com>
+
+	* testext.c (var_test): Fix a comment. Update copyright year.
+
+2020-07-26         Arnold D. Robbins     <arnold@skeeve.com>
+
+	* intdiv.c (do_intdiv): Change quotient and remainder to
+	local variables. No need to allocate/free them via the API.
+
+2020-07-22         Arnold D. Robbins     <arnold@skeeve.com>
+
+	* configure.ac: Use parent directory's m4 and build-aux.
+	* Makefile.am (ACLOCAL_AMFLAGS): Updated.
+	* m4, build-aux: Subdirectories removed.
+	* Makefile.in: Regenerated.
+
+2020-07-21         Arnold D. Robbins     <arnold@skeeve.com>
+
+	* configure.ac (AM_INIT_AUTOMAKE): Update to 1.16.
+
+2020-07-20  gettextize  <bug-gnu-gettext@gnu.org>
+
+	* configure.ac (AM_GNU_GETTEXT_VERSION): Bump to 0.20.2.
+
+2020-07-13         Arnold D. Robbins     <arnold@skeeve.com>
+
+	* intdiv.c (do_intdiv): Release the quotient and remainder
+	values when done with them. Fixes a memory leak. Thanks to
+	Andrew Schorr and valgrind for the report.
+
+2020-06-10         Arnold D. Robbins     <arnold@skeeve.com>
+
+	Miscellanious fixes from Michael Builov <mbuilov@gmail.com>.
+
+	* gawkfts.c (fts_open): Fix memory leak: fts_sort() allocates
+	sp->fts_array, but it's not freed if next fts_alloc() fails.
+	(fts_build): Need to free "head" list before returning NULL
+	on failure.
+	* readdir.c (get_inode): On Windows handle leak: opened handle
+	was not closed.
+	* filefuncs.c (get_inode): On Windows handle leak: opened handle
+	was not closed.
+	(fill_stat_array): Correct the block size calculation.
+	(init_filefuncs, do_fts): According to the documentation,
+	setting the FTS_NOCHDIR flag should only disable the optimization of
+	changing the current directory when scanning directories.
+	However, setting this flag in the gawk script also included setting
+	FTS_SKIP, which prevented recursive directory traversal. Fix this.
+	* rwarray0.c (read_value): Result of read_array() is awk_bool_t,
+	not error code. Fix the check.
+
+2020-04-14         Arnold D. Robbins     <arnold@skeeve.com>
+
+	* 5.1.0: Release tar ball made.
+
+2020-03-11         Arnold D. Robbins     <arnold@skeeve.com>
+
+	* filefuncs.c, ordchr.c, rwarray.c, rwarray0.c: Message updates.
+
+2020-03-06         Jannick               <thirdedition@gmx.net>
+
+	* Makefile.am: Remove trailing spaces.
+	* configure.ac: Use GAWK_CANONICAL_HOST instead of AC_CANONICAL_HOST.
+	Update call to LT_INIT.
+
+2019-11-21         Arnold D. Robbins     <arnold@skeeve.com>
+
+	* time.3am: Document that this extension is now obsolete.
+
+2019-11-03         Arnold D. Robbins     <arnold@skeeve.com>
+
+	* readdir.3am: Document that readdir extension can cause a
+	fatal error, which should be handled with BEGINFILE.
+
+2019-10-16         Andrew J. Schorr      <aschorr@telemetry-investments.com>
+
+	* filefuncs.3am: Enhance the stat() documentation to explain that
+	the returned "name" value equals the argument to the function.
+
+2019-08-21         Arnold D. Robbins     <arnold@skeeve.com>
+
+	* filefuncs.c: Fix a typo in a comment. Update copyright year.
+	* filefuncs.3am: Document statvfs. Thanks to Andrew Schorr
+	for noticing it was missing. Update copyright year.
+
+2019-06-26         Arnold D. Robbins     <arnold@skeeve.com>
+
+	* inplace.3am: Update to match current code's behavior.
+
+2019-06-18         Arnold D. Robbins     <arnold@skeeve.com>
+
+	* 5.0.1: Release tar ball made.
+
+2019-04-18         Arnold D. Robbins     <arnold@skeeve.com>
+
+	* Makefile.am (EXTRA_DIST): Add ChangeLog.1 to the list. Ooops.
+
+2019-04-12         Arnold D. Robbins     <arnold@skeeve.com>
+
+	* ChangeLog.1: Rotated ChangeLog into this file.
+	* ChangeLog: Created anew for gawk 5.0.0 and on.
+	* 5.0.0: Release tar ball made.
