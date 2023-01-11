@@ -23,3 +23,17 @@
 		>>>   Generating filesystem image rootfs.ext2
 		>>>   Executing post-image script board/qemu/post-image.sh
 
+#### The generated rootfs, by default is of ext2 format. We can generate a compressed rootfs by,
+
+	$ cd buildroot-2022.02.8
+
+	$ make menuconfig
+
+	> Filesystem images
+
+		> [ * ] tar the root filesystem.
+
+	Then save. Rebuild.
+
+	$ make 
+
