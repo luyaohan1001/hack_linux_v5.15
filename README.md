@@ -1,5 +1,14 @@
 ## Linux kernel development with QEMU emulator.
 
+#### Start hacking by
+
+	$ ./start_hack_linux.sh
+
+#### Demo for successfully starting the kernel with filesystem on qemu x86_64.
+
+![](docs/misc/demo_success_build_qemu.png)
+
+
 #### The kernel source fetch.
 
 	$ git clone --depth=1 --branch v5.15 git@github.com:torvalds/linux.git
