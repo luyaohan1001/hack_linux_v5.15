@@ -451,4 +451,9 @@ config RANDOM_TRUST_BOOTLOADER
 	pool. Otherwise, say N here so it will be regarded as device input that
 	only mixes the entropy pool.
 
+config HELLO_WORLD_MODULE
+	tristate "Dummy module that prints hello world when loads."
+	help
+	This module is used for sanity-checking the setup of tool chain.
+
 endmenu

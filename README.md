@@ -1,64 +1,79 @@
-## Linux kernel development with QEMU emulator.
+## Linux kernel development with QEMU emulator -- Hello World kernel module.
 
 #### Start hacking by
 
 	$ ./start_hack_linux.sh
 
-#### Demo for successfully starting the kernel with filesystem on qemu x86_64.
+	Login: root
+	Password: 123123
 
-![](docs/misc/demo_success_build_qemu.png)
+#### The helloworld.c kernel module.
+
+	Source for helloworld kernel module was created in helloworld.c as following.
+
+![](docs/helloworld/demo_helloworld_source.png)
+
+	Then the Makefile was edited in kernel/drivers/char/ to include the helloworld object target.
+
+![](docs/helloworld/demo_makefile_change.png)
+
+	Then the Kconfig was also edited in kernel/drivers/char/ to include the CONFIG_HELLO_WORLD_MODULE option:
+
+![](docs/helloworld/demo_kconfig_change.png)
+
+	After this change, we select this helloworld module in menuconfig.
+
+	This target is configurable through Kconfig ($ make menuconfig) on the CONFIG_HELLO_WORLD_MODULE variable.
+
+![](docs/helloworld/demo_menuconfig.png)
+
+	Save the .config.
+
+![](docs/helloworld/demo_save_menuconfig.png)
+
+	Now, compile the module to generate kernel object, helloworld.ko.
+
+	$ cd kernel/drivers/char
+
+	$ make helloworld.ko
+
+![](docs/helloworld/demo_compile_helloworld_ko.png)
+
+#### Testing this kernel module.
+
+	(!) The filesystem image originaly located in buildroot-2022.02.8/output/images/rootfs.ext2 is now copied to filesystem/rootfs.ext2.
+
+	The rootfs.ext2 needs to be mounted first so that the compiled helloworld.ko can be copied it.
+
+	Create a mountpoint by
+
+	$ cd /media
+
+	$ sudo mkdir rootfs
+
+	$ sudo mount filesystem/rootfs.ext2 /media/rootfs
+
+	Now in /media/rootfs is the rootfs shown as a folder instead of a ext2 file.
+
+![](docs/helloworld/demo_create_mountpoint.png)
+
+	Create the a modules folder in /lib if there is none.
+
+	/lib/modules is where modprobe by default looks for kernel modules.
+
+	$ mkdir -p /lib/modules/5.15.0 (current linux version.)
+
+	And copy the compiled helloworld.ko to this folder.
+
+	$ cp kernel/drivers/char/helloworld.ko /lib/modules/5.15.0
+
+#### Demo for loading the helloworld kernel module on QEMU.
+
+	Start the QEMU by kicking off ./start_hack_linux.sh
+
+	Then,
+
+![](docs/helloworld/demo_load_helloworld_qemu.png)
 
 
-#### The kernel source fetch.
-
-	$ git clone --depth=1 --branch v5.15 git@github.com:torvalds/linux.git
-
-#### Configire kernel.
-
-	$ cd kernel
-
-	$ make ARCH=x86_64 x86_64_defconfig 
-
-	$ make menuconfig
-
-#### Compile kernel.
-
-	$ make -j16
-
-	On successful compilation of the kernel, in the log, we observe,
-
-	Kernel: arch/x86/boot/bzImage is ready  (#1)
-
-#### Configure buildroot for qemu on x86_64 architecture.
-
-	$ cd buildroot-2022.02.8
-
-	$ make qemu_x86_64_defconfig
-
-	Now make more configurations.
-
-	$ make menuconfig
-
-#### Compile filesystem.
-
-	$ make -j16
-
-	Upon successful compilation of the rootfs, we should see following messages:
-
-		>>>   Generating filesystem image rootfs.ext2
-		>>>   Executing post-image script board/qemu/post-image.sh
-
-#### The generated rootfs, by default is of ext2 format. We can generate a compressed rootfs by,
-
-	$ cd buildroot-2022.02.8
-
-	$ make menuconfig
-
-	> Filesystem images
-
-		> [ * ] tar the root filesystem.
-
-	Then save. Rebuild.
-
-	$ make 
 
