@@ -11,25 +11,25 @@
 
 	Source for helloworld kernel module was created in helloworld.c as following.
 
-![](docs/helloworld/demo_helloworld_source.png)
+![](docs/hello_world_module/demo_helloworld_source.png)
 
 	Then the Makefile was edited in kernel/drivers/char/ to include the helloworld object target.
 
-![](docs/helloworld/demo_makefile_change.png)
+![](docs/hello_world_module/demo_makefile_change.png)
 
 	Then the Kconfig was also edited in kernel/drivers/char/ to include the CONFIG_HELLO_WORLD_MODULE option:
 
-![](docs/helloworld/demo_kconfig_change.png)
+![](docs/hello_world_module/demo_kconfig_change.png)
 
 	After this change, we select this helloworld module in menuconfig.
 
 	This target is configurable through Kconfig ($ make menuconfig) on the CONFIG_HELLO_WORLD_MODULE variable.
 
-![](docs/helloworld/demo_menuconfig.png)
+![](docs/hello_world_module/demo_menuconfig.png)
 
 	Save the .config.
 
-![](docs/helloworld/demo_save_menuconfig.png)
+![](docs/hello_world_module/demo_save_menuconfig.png)
 
 	Now, compile the module to generate kernel object, helloworld.ko.
 
@@ -37,7 +37,7 @@
 
 	$ make helloworld.ko
 
-![](docs/helloworld/demo_compile_helloworld_ko.png)
+![](docs/hello_world_module/demo_compile_helloworld_ko.png)
 
 #### Testing this kernel module.
 
@@ -55,7 +55,7 @@
 
 	Now in /media/rootfs is the rootfs shown as a folder instead of a ext2 file.
 
-![](docs/helloworld/demo_create_mountpoint.png)
+![](docs/hello_world_module/demo_create_mountpoint.png)
 
 	Create the a modules folder in /lib if there is none.
 
@@ -73,7 +73,7 @@
 
 	Then,
 
-![](docs/helloworld/demo_load_helloworld_qemu.png)
+![](docs/hello_world_module/demo_load_helloworld_qemu.png)
 
 
 
